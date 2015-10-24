@@ -1113,7 +1113,7 @@ body:not(.post-template) .post-title {
     display: block;
     position: absolute;
     top: -40px;
-    left: 50%;
+    left: 5%;
     margin-left: -40px;
     width: 80px;
     height: 80px;
