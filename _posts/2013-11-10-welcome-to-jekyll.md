@@ -22,6 +22,6 @@ Check out the [Jekyll docs][jekyll] for more info on how to get the most out of 
 [jekyll-gh]: https://github.com/mojombo/jekyll
 [jekyll]:    http://jekyllrb.com
 
-{% include videoPlayer.html source="youtube" id="J6lyURyVz7k" %}
-{% include videoPlayer.html source="vimeo" id="143703730" %}
-{% include videoPlayer.html source="vid.me" id="iuZs" %}
+{% include video.html source="youtube" id="J6lyURyVz7k" %}
+{% include video.html source="vimeo" id="143703730" %}
+{% include video.html source="vid.me" id="iuZs" %}
