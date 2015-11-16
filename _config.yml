@@ -1,7 +1,8 @@
 # Jekyll config
-markdown: redcarpet
-highlighter: pygments
+markdown: 'redcarpet'
+highlighter: 'pygments'
 paginate: 15
+gems: [jekyll-paginate]
 
 # Website info
 name: 'Jake Curran'
@@ -13,10 +14,11 @@ author: 'Jake Curran'
 
 # Services
 google_analytics: 'UA-68791607-1'
+disqus_username: 'jakecurran'
 
 # Other
 domain_name: 'https://jakecurran.xyz'
-url: https://jakecurran.xyz
-enforce_ssl: jakecurran.xyz
+url: 'https://jakecurran.xyz'
+enforce_ssl: 'jakecurran.xyz'
 baseurl: '/'
 logo: false
