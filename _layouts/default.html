@@ -1,19 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <!-- HTTPS redirect -->
+    <script type="text/javascript">
+      var host = "jakecurran.xyz";
+      if ((host == window.location.host) && (window.location.protocol != "https:"))
+          window.location.protocol = "https";
+    </script>
+
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
     <title>{{ site.name }} - {{ site.description }}</title>
     <meta name="description" content="{{ site.meta_description}}" />
+    <link rel="canonical" href="{ { site.url } }{ { page.url } }" />
 
     <meta name="HandheldFriendly" content="True" />
     <meta name="MobileOptimized" content="320" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!-- css  -->
     <link rel="stylesheet" type="text/css" href="/assets/css/screen.css" />
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400" />
-    <!-- Customisation  -->
     <link rel="stylesheet" type="text/css" href="/assets/css/main.css" />
 
     <!-- favicon -->
@@ -41,14 +49,14 @@
     {{ content }}
     <footer class="site-footer clearfix">
       <section class="copyright">
-        <a href="{{ site.baseurl }}">{{ site.name }}</a> &copy; 
+        <a href="{{ site.baseurl }}">{{ site.name }}</a> &copy;
               {{ 'now' | date: "%Y" }} &bull; All rights reserved.
       </section>
-      <section class="poweredby">Made with Jekyll using 
+      <section class="poweredby">Made with Jekyll using
         <a href="http://github.com/rosario/kasper">Kasper theme</a>
       </section>
     </footer>
-    
+
     <script type="text/javascript" src="/assets/js/jquery-1.11.1.min.js"></script>
     <script type="text/javascript" src="/assets/js/jquery.fitvids.js"></script>
     <script type="text/javascript" src="/assets/js/index.js"></script>
@@ -66,6 +74,6 @@
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
       })();
 
-    </script>   
+    </script>
 </body>
 </html>
