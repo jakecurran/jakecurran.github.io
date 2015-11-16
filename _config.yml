@@ -1,15 +1,22 @@
-name: Jake Curran
-description: "Computer Science, University of Waterloo"
-meta_description: "Jake Curran - Computer Science, University of Waterloo"
-
+# Jekyll config
 markdown: redcarpet
 highlighter: pygments
-logo: false
 paginate: 15
-baseurl: /
-domain_name: 'http://jakecurran.xyz'
+
+# Website info
+name: 'Jake Curran'
+description: 'Computer Science, University of Waterloo'
+meta_description: 'Jake Curran - Computer Science, University of Waterloo'
+
+# Author info
+author: 'Jake Curran'
+
+# Services
 google_analytics: 'UA-68791607-1'
 
-# Details for the RSS feed generator
-url:            'http://jakecurran.xyz'
-author:         'Jake Curran'
+# Other
+domain_name: 'https://jakecurran.xyz'
+url: https://jakecurran.xyz
+enforce_ssl: jakecurran.xyz
+baseurl: '/'
+logo: false
