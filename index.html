@@ -1,10 +1,11 @@
 ---
 layout: default
 title: Home
-cover: /assets/images/cover.png
+cover: '#292929'
+cover-gradient: '#1C1C1C'
 ---
 
-<header class="main-header {% if page.cover %}" style="background-image: url({{ page.cover }}) {%else%}no-cover{% endif %}">
+<header class="main-header {% if page.cover %}" style="background: radial-gradient(transparent, {{ page.cover-gradient }}), {{page.cover}}; {%else%}no-cover{% endif %}">
     <nav class="main-nav overlay clearfix">
             {% if page.logo %}
                 <a class="blog-logo" href="{{ site.baseurl }}">
