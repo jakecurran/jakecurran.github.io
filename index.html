@@ -1,18 +1,16 @@
 ---
 layout: default
-title: Home
 cover: '#292929'
-cover-gradient: '#1C1C1C'
 ---
 
-<header class="main-header {% if page.cover %}" style="background: radial-gradient(transparent, {{ page.cover-gradient }}), {{page.cover}}; {%else%}no-cover{% endif %}">
+<header class="main-header {% if page.cover %}" style="background-color: {{page.cover}}; {%else%}no-cover{% endif %}">
     <nav class="main-nav overlay clearfix">
             {% if page.logo %}
                 <a class="blog-logo" href="{{ site.baseurl }}">
                     <img src="{{ page.logo }}" alt="Blog Logo" />
                 </a>
             {% endif %}
-        <a class="subscribe-button icon-feed" href="{{ site.baseurl }}rss.xml"></a>
+        <a class="subscribe-button" href="{{ site.baseurl }}about">About</a>
     </nav>
     <div class="vertical">
         <div class="main-header-content inner">
