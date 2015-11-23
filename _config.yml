@@ -11,7 +11,9 @@ meta_description: 'Jake Curran - Computer Science, University of Waterloo'
 
 # Author info
 author: 'Jake Curran'
-github-url: 'https://github.com/jakecurran'
+github: 'https://github.com/jakecurran'
+linkedin: 'https://ca.linkedin.com/in/jakecurran'
+google_plus: 'https://plus.google.com/115297875524722716683'
 
 # Services
 google_analytics: 'UA-68791607-1'
