@@ -19,11 +19,11 @@ logo: /assets/images/logo-light.png
             <h2 class="page-description">
                 {% if site.description %} <i class="fa fa-university"></i> &nbsp; {{ site.description }} {% endif %}
             </h2>
-            <a href="mailto:me@jakecurran.xyz" style="text-decoration: none">
-            	<h2 class="page-description">
-            		<i class="fa fa-envelope"></i> &nbsp; me@jakecurran.xyz
-            	</h2>
-            </a>
+            <h2 class="page-description">
+              <a href="mailto:{{ site.email }}" style="text-decoration: none">
+            	 <i class="fa fa-envelope"></i> &nbsp; {{ site.email }}
+              </a>
+            </h2>
             <h2 class="page-description">
             	<br>
             	<a href="{{ site.github }}" style="text-decoration: none">
@@ -65,12 +65,12 @@ logo: /assets/images/logo-light.png
                 <img class="author-thumb" src="/assets/images/profile.png" alt="Author's profile picture" nopin="nopin" />
                 {{ site.author }}
             {% endif %}
-            {% if post.categories.size > 0 %} 
-                {{ post.categories | array_to_sentence_string | prepend: 'on ' }} 
+            {% if post.categories.size > 0 %}
+                {{ post.categories | array_to_sentence_string | prepend: 'on ' }}
             {% endif %}
             <time class="post-date" datetime="{{ post.date | date:"%Y-%m-%d" }}">
                 {{ post.date | date_to_string }}
-            </time> 
+            </time>
         </footer>
     </article>
 
