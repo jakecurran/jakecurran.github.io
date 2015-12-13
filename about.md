@@ -1,6 +1,8 @@
 ---
 layout: page
-title: About me 
+title: About
 ---
 
-This is a static page. It could be an 'about page' if you'd like.
+I am a 2A Computer Science student at the University of Waterloo. If you would like,
+contact me at [me@jakecurran.xyz](mailto:me@jakecurran@xyz) or view my resume as a
+[PDF](../resume.pdf) or in [Markdown](../resume).
