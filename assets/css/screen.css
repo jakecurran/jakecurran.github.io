@@ -1181,6 +1181,14 @@ body:not(.post-template) .post-title {
     font-size: 1.1rem;
 }
 
+/* KaTeX */
+.equation {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    font-size: 1.25em;
+}
+
 
 /* ==========================================================================
    8. Pagination - Tools to let you flick between pages
