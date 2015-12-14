@@ -1,6 +1,9 @@
 # Jekyll config
-markdown: 'redcarpet'
-highlighter: 'pygments'
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+
+highlighter: pygments
 paginate: 15
 gems: [jekyll-paginate]
 

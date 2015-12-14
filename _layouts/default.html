@@ -44,6 +44,16 @@
     <meta name="msapplication-TileImage" content="/assets/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
+    <!-- JS -->
+    <script type="text/javascript" src="/assets/js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="/assets/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="/assets/js/index.js"></script>
+
+    <!-- Katex -->
+    {% if page.math %}
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css">
+        <script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.js"></script>
+    {% endif %}
 </head>
 <body class="{% if page.post_class %}{{page.post_class}}{% else %}home-template{% endif %}">
 
@@ -69,13 +79,8 @@
       </section>
     </footer>
 
-    <script type="text/javascript" src="/assets/js/jquery-1.11.1.min.js"></script>
-    <script type="text/javascript" src="/assets/js/jquery.fitvids.js"></script>
-    <script type="text/javascript" src="/assets/js/index.js"></script>
-
     <!-- Google Analytics Tracking code -->
     <script type="text/javascript">
-
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', '{{ site.google_analytics }}']);
       _gaq.push(['_trackPageview']);
@@ -85,7 +90,26 @@
         ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
       })();
-
     </script>
+
+    {% if page.math %}
+    <script>
+    $("script[type='math/tex']").replaceWith(
+        function(){
+            var tex = $(this).text();
+            return "<span class=\"inline-equation\">" +
+                   katex.renderToString(tex) +
+                   "</span>";
+    });
+
+    $("script[type='math/tex; mode=display']").replaceWith(
+        function(){
+            var tex = $(this).text();
+            return "<div class=\"equation\">" +
+                   katex.renderToString("\\displaystyle "+tex) +
+                   "</div>";
+    });
+    </script>
+    {% endif %}
 </body>
 </html>
