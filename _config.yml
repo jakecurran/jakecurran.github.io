@@ -25,6 +25,7 @@ disqus_username: 'jakecurran'
 # Other
 domain_name: 'https://jakecurran.xyz'
 url: 'https://jakecurran.xyz'
+blog: 'https://jakecurran.xyz/#content'
 enforce_ssl: 'jakecurran.xyz'
 baseurl: '/'
 logo: false
