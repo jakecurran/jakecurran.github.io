@@ -3,11 +3,19 @@
 
 <!DOCTYPE HTML>
 <html lang="en-US">
-    <head>
-        <meta http-equiv="refresh" content="0;url={{ site.url }}">
-        <script type="text/javascript">
-            window.location.href = "{{ site.url }}"
-        </script>
-        <title>{{ site.name }} - 404</title>
-    </head>
+  <head>
+    <script type="text/javascript">
+      var redirects = {};
+      redirects["blog"]     = "{{ site.blog }}";
+      redirects["github"]   = "{{ site.github }}";
+      redirects["linkedin"] = "{{ site.linkedin }}";
+
+      var redirect = redirects[window.location.pathname.substring(1)];
+      if (redirect) {
+        window.location.replace(redirect);
+      } else {
+        window.location.replace("/");
+      }
+    </script>
+  </head>
 </html>
