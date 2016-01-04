@@ -3,6 +3,8 @@ layout: page
 title: About
 ---
 
-I am a 2A Computer Science student at the University of Waterloo. If you would like,
-contact me at [me@jakecurran.xyz](mailto:me@jakecurran@xyz) or view my resume as a
-[PDF](../resume.pdf) or in [Markdown](../resume).
+I am a 2A Computer Science student at the University of Waterloo. You can
+contact me at [me@jakecurran.xyz](mailto:{{ site.email }}) or view my resume
+below.
+
+<iframe src="/resume.pdf" width="700px" height="885px">
