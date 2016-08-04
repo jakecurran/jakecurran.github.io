@@ -5,17 +5,18 @@
 <html lang="en-US">
   <head>
     <script type="text/javascript">
-      var redirects = {};
-      redirects["blog"]     = "{{ site.blog }}";
-      redirects["github"]   = "{{ site.github }}";
-      redirects["linkedin"] = "{{ site.linkedin }}";
-      redirects["resume"]   = "{{ site.resume }}";
+      var redirects = {
+        blog    : '{{ site.blog     }}',
+        github  : '{{ site.github   }}',
+        linkedin: '{{ site.linkedin }}',
+        resume  : '{{ site.resume   }}'
+      };
 
       var redirect = redirects[window.location.pathname.substring(1)];
       if (redirect) {
         window.location.replace(redirect);
       } else {
-        window.location.replace("/");
+        window.location.replace('/');
       }
     </script>
   </head>
