@@ -17,16 +17,16 @@ author: 'Jake Curran'
 email: 'jc@jakecurran.com'
 github: 'https://github.com/jakecurran'
 linkedin: 'https://linkedin.com/in/jakecurran'
-resume: 'https://jakecurran.xyz/resume.pdf'
+resume: 'https://jakecurran.com/resume.pdf'
 
 # Services
 google_analytics: 'UA-79209510-1'
 disqus_username: 'jakercurran'
 
 # Other
-domain_name: 'https://jakecurran.xyz'
-url: 'https://jakecurran.xyz'
-blog: 'https://jakecurran.xyz/#content'
-enforce_ssl: 'jakecurran.xyz'
+domain_name: 'https://jakecurran.com'
+url: 'https://jakecurran.com'
+blog: 'https://jakecurran.com/#content'
+enforce_ssl: 'jakecurran.com'
 baseurl: '/'
 logo: false
