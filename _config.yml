@@ -6,6 +6,8 @@ kramdown:
 highlighter: rouge
 paginate: 15
 gems: [jekyll-paginate, jekyll-sitemap]
+permalink: /blog/:title
+paginate_path: blog/page:num
 
 # Website info
 name: 'Jake Curran'
