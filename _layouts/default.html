@@ -11,23 +11,39 @@
 
   <footer class="site-footer clearfix">
     <section class="copyright">
-      <a href="{{ site.baseurl }}">
+      <a href="/" title="Resume">
         {{ site.name }}
       </a>
 
       &nbsp;
-      <a href="{{ site.github }}">
+      |
+
+      &nbsp;
+      <a href="/blog" title="{{ site.blog_description }}">
+        Blog
+      </a>
+
+      &nbsp;
+      <a href="/rss" title="RSS">
+        <i class="fa fa-rss"></i>
+      </a>
+
+      &nbsp;
+      |
+
+      &nbsp;
+      <a href="https://github.com/{{ site.github }}" title="GitHub: {{ site.github }}">
         <i class="fa fa-github"></i>
       </a>
 
       &nbsp;
-      <a href="{{ site.linkedin }}">
+      <a href="https://linkedin.com/in/{{ site.linkedin }}" title="LinkedIn: {{ site.linkedin }}">
         <i class="fa fa-linkedin"></i>
       </a>
 
       &nbsp;
-      <a href="/rss">
-        <i class="fa fa-rss"></i>
+      <a href="mailto:{{ site.email }}" title="Email: jc@jakecurran.com">
+        <i class="fa fa-envelope"></i>
       </a>
     </section>
 
