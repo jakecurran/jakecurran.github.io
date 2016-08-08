@@ -11,12 +11,13 @@ gems: [jekyll-paginate, jekyll-sitemap]
 name: 'Jake Curran'
 description: 'University of Waterloo, Computer Science'
 meta_description: 'Jake Curran - Computer Science, University of Waterloo'
+blog_description: 'Pedantic thoughts'
 
 # Author info
 author: 'Jake Curran'
 email: 'jc@jakecurran.com'
-github: 'https://github.com/jakecurran'
-linkedin: 'https://linkedin.com/in/jakecurran'
+github: 'jakecurran'
+linkedin: 'jakecurran'
 resume: 'https://jakecurran.com/resume.pdf'
 
 # Services
