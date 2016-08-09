@@ -1,4 +1,5 @@
 # Jekyll config
+safe: true
 markdown: kramdown
 kramdown:
   math_engine: mathjax
