@@ -10,6 +10,14 @@ gems: [jekyll-paginate, jekyll-sitemap]
 permalink: /blog/:title
 paginate_path: blog/page:num
 
+exclude:
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - _posts/1999-12-31-test.md
+
 # Website info
 name: 'Jake Curran'
 description: 'University of Waterloo, Computer Science'
