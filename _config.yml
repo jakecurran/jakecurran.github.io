@@ -40,5 +40,5 @@ domain_name: 'https://jakecurran.com'
 url: 'https://jakecurran.com'
 blog: 'https://jakecurran.com/#content'
 enforce_ssl: 'jakecurran.com'
-baseurl: '/'
+baseurl: ''
 logo: false
