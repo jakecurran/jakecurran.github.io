@@ -61,13 +61,13 @@ post_class: post-template
 
         <footer class="post-footer">
             <!-- If we want to display author's name and bio -->
-            {% if site.author %}
+            {% if site.data.profile.name %}
                 <figure class="author-image">
                     <a id="profile" class="img" href="/">
 
                     <script>
                         var profileImage = document.getElementById('profile');
-                        var emailHash = md5('{{ site.email }}');
+                        var emailHash = md5('{{ site.data.profile.email }}');
                         profileImage.style.backgroundImage = 'url(https://www.gravatar.com/avatar/' + emailHash + ')';
                     </script>
 
@@ -75,7 +75,7 @@ post_class: post-template
                 </figure>
                 <section class="author">
                     <!-- Author Name -->
-                    <h4> {{ site.author }} </h4>
+                    <h4> {{ site.data.profile.name }} </h4>
                     <!-- Author Bio -->
                     <p>
                         Here goes the author description. You might want to place some links too in here

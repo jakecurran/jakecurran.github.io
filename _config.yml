@@ -23,22 +23,13 @@ name: 'Jake Curran'
 description: 'University of Waterloo, Computer Science'
 meta_description: 'Jake Curran - Computer Science, University of Waterloo'
 blog_description: 'Pedantic thoughts'
-
-# Author info
-author: 'Jake Curran'
-email: 'jc@jakecurran.com'
-github: 'jakecurran'
-linkedin: 'jakecurran'
 resume: 'https://jakecurran.com/resume.pdf'
 
-# Services
 google_analytics: 'UA-79209510-1'
-disqus_username: 'jakercurran'
 
 # Other
 domain_name: 'https://jakecurran.com'
 url: 'https://jakecurran.com'
 blog: 'https://jakecurran.com/#content'
-enforce_ssl: 'jakecurran.com'
 baseurl: ''
 logo: false
