@@ -7,10 +7,10 @@
     <script type="text/javascript">
       var redirects = {
         blog    : '{{ site.blog     }}',
-        github  : '{{ site.github   }}',
-        linkedin: '{{ site.linkedin }}',
-        resume  : '{{ site.resume   }}',
-        email   : 'mailto:{{ site.email }}'
+        github  : 'https://github.com/{{ site.data.profile.github   }}',
+        linkedin: 'https://www.linkedin.com/in/{{ site.data.profile.linkedin }}',
+        resume  : '{{ site.data.profile.resume   }}',
+        email   : 'mailto:{{ site.data.profile.email }}'
       };
 
       var redirect = redirects[window.location.pathname.substring(1)];
