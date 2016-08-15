@@ -1,56 +1,13 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-  {% include head.html %}
-</head>
+{% include head.html %}
 
 <body class="{% if page.post_class %}{{page.post_class}}{% else %}home-template{% endif %}">
 
   {{ content }}
 
-  <footer class="site-footer clearfix">
-    <section class="copyright">
-      <a href="/" title="Resume">
-        {{ site.name }}
-      </a>
-
-      &nbsp;
-      |
-
-      &nbsp;
-      <a href="/blog" title="{{ site.blog_description }}">
-        Blog
-      </a>
-
-      &nbsp;
-      <a href="/rss" title="RSS">
-        <i class="fa fa-rss"></i>
-      </a>
-
-      &nbsp;
-      |
-
-      &nbsp;
-      <a href="https://github.com/{{ site.data.profile.github }}" title="GitHub: {{ site.data.profile.github }}">
-        <i class="fa fa-github"></i>
-      </a>
-
-      &nbsp;
-      <a href="https://www.linkedin.com/in/{{ site.data.profile.linkedin }}" title="LinkedIn: {{ site.data.profile.linkedin }}">
-        <i class="fa fa-linkedin"></i>
-      </a>
-
-      &nbsp;
-      <a href="mailto:{{ site.data.profile.email }}" title="Email: site.data.profile.email">
-        <i class="fa fa-envelope"></i>
-      </a>
-    </section>
-
-    <section class="poweredby">Made with Jekyll using
-        <a href="http://github.com/rosario/kasper">Kasper theme</a>
-    </section>
-  </footer>
+  {% include footer.html %}
 
   <!-- KaTeX script -->
   {% if page.math %}
