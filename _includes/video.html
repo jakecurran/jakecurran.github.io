@@ -2,6 +2,4 @@
   <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ include.id }}" frameborder="0" allowfullscreen></iframe>
 {% elsif include.src == "vimeo" %}
   <iframe src="https://player.vimeo.com/video/{{ include.id }}?color=ffffff" width="500" height="264" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-{% elsif include.src == "vid.me" %}
-  <iframe src="https://vid.me/e/{{ include.id }}?stats=1&amp;tools=1" width="710" height="400" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen scrolling="no"></iframe>
 {% endif %}
