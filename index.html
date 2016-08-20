@@ -6,11 +6,9 @@ logo: /assets/images/logo-light.png
 
 <header class="main-header {% if page.cover %}" style="background-color: {{page.cover}}; {%else%}no-cover{% endif %}">
     <nav class="main-nav overlay clearfix">
-            {% if page.logo %}
-                <a class="blog-logo" href="{{ site.baseurl }}">
-                    <img src="{{ page.logo }}" alt="Blog Logo" />
-                </a>
-            {% endif %}
+            <a href="{{ site.baseurl }}">
+                <div class="blog-logo">J</div>
+            </a>
 
             <a class="subscribe-button" href="{{ site.baseurl }}blog" title="{{ site.blog_description }}">Blog</a>
     </nav>
