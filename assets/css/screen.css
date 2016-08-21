@@ -103,21 +103,9 @@ table { border-collapse: collapse; border-spacing: 0; }
    1. Icons - Sets up the icon font and respective classes
    ========================================================================== */
 
-/* Import the font file with the icons in it */
-@font-face {
-    font-family: "casper-icons";
-    src:url("../fonts/casper-icons.eot");
-    src:url("../fonts/casper-icons.eot?#iefix") format("embedded-opentype"),
-        url("../fonts/casper-icons.woff") format("woff"),
-        url("../fonts/casper-icons.ttf") format("truetype"),
-        url("../fonts/casper-icons.svg#icons") format("svg");
-    font-weight: normal;
-    font-style: normal;
-}
-
 /* Apply these base styles to all icons */
 [class^="icon-"]:before, [class*=" icon-"]:before {
-    font-family: "casper-icons", "Open Sans", sans-serif;
+    font-family: "FontAwesome", "Open Sans", sans-serif;
     speak: none;
     font-style: normal;
     font-weight: normal;
@@ -131,33 +119,19 @@ table { border-collapse: collapse; border-spacing: 0; }
 
 /* Each icon is created by inserting the correct character into the
    content of the :before pseudo element. Like a boss. */
-.icon-ghost:before {
-    content: "\f600";
-}
 .icon-twitter:before {
-    content: "\f602";
+    content: "\f081";
     font-size: 1.1em;
 }
 .icon-google-plus:before {
-    content: "\f603";
+    content: "\f0d4";
 }
 .icon-facebook:before {
-    content: "\f604";
+    content: "\f082";
 }
 .icon-arrow-left:before {
-    content: "\f605";
+    content: "\f060";
 }
-.icon-stats:before {
-    content: "\f606";
-}
-.icon-location:before {
-    content: "\f607";
-    margin-left: -3px; /* Tracking fix */
-}
-.icon-link:before {
-    content: "\f608";
-}
-
 
 /* ==========================================================================
    2. General - Setting up some base styles
