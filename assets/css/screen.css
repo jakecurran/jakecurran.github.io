@@ -137,6 +137,18 @@ table { border-collapse: collapse; border-spacing: 0; }
    2. General - Setting up some base styles
    ========================================================================== */
 
+@font-face {
+  font-family: 'Cousine';
+  font-weight: 400;
+  font-style: normal;
+  src: url('/assets/fonts/Cousine-regular/Cousine-regular.eot');
+  src: url('/assets/fonts/Cousine-regular/Cousine-regular.eot?#iefix') format('embedded-opentype'),
+       url('/assets/fonts/Cousine-regular/Cousine-regular.woff2') format('woff2'),
+       url('/assets/fonts/Cousine-regular/Cousine-regular.woff') format('woff'),
+       url('/assets/fonts/Cousine-regular/Cousine-regular.ttf') format('truetype'),
+       url('/assets/fonts/Cousine-regular/Cousine-regular.svg#Cousine') format('svg');
+}
+
 html {
     height: 100%;
     max-height: 100%;
