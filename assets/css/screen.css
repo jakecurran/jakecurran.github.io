@@ -6,17 +6,18 @@
 
     0.  Normalize
     1.  Icons
-    2.  General
-    3.  Utilities
-    4.  General
-    5.  Single Post
-    6.  Tag Archive
-    7.  Third Party Elements
-    8.  Pagination
-    9.  Footer
-    10. Media Queries (Tablet)
-    11. Media Queries (Mobile)
-    12. Animations
+    2.  Fonts
+    3.  General
+    4.  Utilities
+    5.  General
+    6.  Single Post
+    7.  Tag Archive
+    8.  Third Party Elements
+    9.  Pagination
+    10.  Footer
+    11. Media Queries (Tablet)
+    12. Media Queries (Mobile)
+    13. Animations
 
 */
 
@@ -134,7 +135,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 }
 
 /* ==========================================================================
-   2. General - Setting up some base styles
+   2. Fonts - Declares hosted fonts
    ========================================================================== */
 
 @font-face {
@@ -232,6 +233,10 @@ table { border-collapse: collapse; border-spacing: 0; }
        url('/assets/fonts/Merriweather-700italic/Merriweather-700italic.ttf') format('truetype'),
        url('/assets/fonts/Merriweather-700italic/Merriweather-700italic.svg#Merriweather') format('svg');
 }
+
+/* ==========================================================================
+   3. General - Setting up some base styles
+   ========================================================================== */
 
 html {
     height: 100%;
@@ -497,7 +502,7 @@ margin on the iframe, cause it breaks stuff. */
 
 
 /* ==========================================================================
-   3. Utilities - These things get used a lot
+   4. Utilities - These things get used a lot
    ========================================================================== */
 
 /* Clears */
@@ -532,7 +537,7 @@ margin on the iframe, cause it breaks stuff. */
 
 
 /* ==========================================================================
-   4. General - The main styles for the the theme
+   5. General - The main styles for the the theme
    ========================================================================== */
 
 /* Big cover image on the home page */
@@ -900,7 +905,7 @@ body:not(.post-template) .post-title {
 
 
 /* ==========================================================================
-   5. Single Post - When you click on an individual post
+   6. Single Post - When you click on an individual post
    ========================================================================== */
 
 .post-template .post-header {
@@ -1097,7 +1102,7 @@ body:not(.post-template) .post-title {
 }
 
 /* ==========================================================================
-   6. Author profile
+   7. Author profile
    ========================================================================== */
 
 .post-head.main-header {
@@ -1231,7 +1236,7 @@ body:not(.post-template) .post-title {
 }
 
 /* ==========================================================================
-   7. Third Party Elements - Embeds from other services
+   8. Third Party Elements - Embeds from other services
    ========================================================================== */
 
 /* Github */
@@ -1254,7 +1259,7 @@ body:not(.post-template) .post-title {
 
 
 /* ==========================================================================
-   8. Pagination - Tools to let you flick between pages
+   9. Pagination - Tools to let you flick between pages
    ========================================================================== */
 
 /* The main wrapper for our pagination links */
@@ -1342,7 +1347,7 @@ body:not(.post-template) .post-title {
 
 
 /* ==========================================================================
-   9. Footer - The bottom of every page
+   10. Footer - The bottom of every page
    ========================================================================== */
 
 .site-footer {
@@ -1381,7 +1386,7 @@ body:not(.post-template) .post-title {
 
 
 /* ==========================================================================
-   10. Media Queries - Smaller than 900px
+   11. Media Queries - Smaller than 900px
    ========================================================================== */
 
 @media only screen and (max-width: 900px) {
@@ -1505,7 +1510,7 @@ body:not(.post-template) .post-title {
 
 
 /* ==========================================================================
-   11. Media Queries - Smaller than 500px
+   12. Media Queries - Smaller than 500px
    ========================================================================== */
 
 @media only screen and (max-width: 500px) {
@@ -1768,7 +1773,7 @@ body:not(.post-template) .post-title {
 
 
 /* ==========================================================================
-   12. Animations
+   13. Animations
    ========================================================================== */
 
 
