@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "Site Title"
+title                    : "Jake Curran"
 title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+name                     : "Jake Curran"
+description              : "My personal portfolio and blog."
+url                      : "https://jakecurran.com"
+baseurl                  : ""
+repository               : "jakecurran/jakecurran.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -77,30 +77,30 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Jake Curran"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
-  email            :
-  uri              :
-  bitbucket        :
+  bio              : "Computer Science student at the University of Waterloo."
+  location         : "Canada"
+  email            : "jake@jakecurran.com"
+  uri              : "https://jakecurran.com"
+  bitbucket        : "jakecurran"
   codepen          :
   dribbble         :
   flickr           :
   facebook         :
   foursquare       :
-  github           :
+  github           : "jakecurran"
   google_plus      :
-  keybase          :
+  keybase          : "jakecurran"
   instagram        :
   lastfm           :
-  linkedin         :
+  linkedin         : "jakecurran"
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
   steam            :
   tumblr           :
-  twitter          :
+  twitter          : "jakercurran"
   vine             :
   weibo            :
   xing             :
@@ -135,8 +135,6 @@ exclude:
   - Rakefile
   - README
   - tmp
-  - /docs # ignore Minimal Mistakes /docs
-  - /test # ignore Minimal Mistakes /test
 keep_files:
   - .git
   - .svn
@@ -171,8 +169,8 @@ sass:
 
 
 # Outputting
-permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+permalink: /:title/
+paginate: 10 # amount of posts to show
 paginate_path: /page:num/
 timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
