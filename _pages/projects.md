@@ -1,7 +1,6 @@
 ---
 layout: archive
+title: Projects
 permalink: /projects
 author_profile: true
 ---
-
-<h3 class="archive__subtitle">{{ "Projects" }}</h3>
