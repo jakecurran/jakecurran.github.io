@@ -161,11 +161,11 @@ sass:
 paginate: 10 # amount of posts to show
 permalink: /blog/:title/
 paginate_path: blog/page:num/
-timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
