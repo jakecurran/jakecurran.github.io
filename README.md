@@ -1,3 +1,3 @@
 # jakecurran.com
 
-A personal site and blog using Jekyll and Github Pages. It is built upon the [Kasper theme](http://github.com/rosario/kasper).
+A personal portfolio and blog using Jekyll and Github Pages. Uses [`minimal-mistakes`](https://github.com/mmistakes/minimal-mistakes) theme.
